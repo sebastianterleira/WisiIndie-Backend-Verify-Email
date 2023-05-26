@@ -1,0 +1,32 @@
+{
+  "name": "wisiindie-backend-verify-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/index.js",
+    "dev": "nodemon ./app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianterleira/WisiIndie-Backend-Verify-Email.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianterleira/WisiIndie-Backend-Verify-Email/issues"
+  },
+  "homepage": "https://github.com/sebastianterleira/WisiIndie-Backend-Verify-Email#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.23.0",
+    "dotenv": "^16.0.3",
+    "install": "^0.13.0",
+    "npm": "^9.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
